@@ -1,4 +1,5 @@
 import React from 'react';
+import apu from './services/api';
 import './App.css';
 
 import logo from './assets/logo.svg';
@@ -19,7 +20,7 @@ function App() {
               id="email" 
               placeholder="Your best email" 
             />
-            <button type="submit" >Enter</button>
+            <button className="btn" type="submit" >Enter</button>
           </form>
         </p>
       </div>
